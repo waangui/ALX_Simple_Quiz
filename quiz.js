@@ -8,7 +8,7 @@ function checkAnswer(){
 
     // compare answers
 
-    if(userAnswer === correctAnswer){
+   if (userAnswer === correctAnswer){
         feedbackElement.textContent = "Correct! Well done."
     } else {
         feedbackElement.textContent = "That's incorrect. Try again!"
