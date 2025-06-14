@@ -13,4 +13,10 @@ function checkAnswer(){
     } else {
         feedbackElement.textContent = "That's incorrect. Try again!"
     }
+ 
 }
+
+// Add eventlistener to submit button
+
+document.querySelector('submit-answer').addEventListener('click', checkAnswer);
+
